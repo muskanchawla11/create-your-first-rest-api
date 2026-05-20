@@ -1,0 +1,8 @@
+by default , browser enforces a same origin policy , means request can only be made to same protocol , domain , port as the same serving the web page
+
+means :
+frontend (http://muskan.com) -> backend (http://muskan.com) -> allowed
+frontend (http://muskan.com) -> backend (http://xyz.com) -> not allowed
+
+to allow this you want :
+you need CORS -> CROSS ORIGIN RESOUCE SHARING
