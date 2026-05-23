@@ -1,0 +1,12 @@
+{
+  "name": "retrotech",
+  "version": "1.0.0",
+  "description": "A retro tech store",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
