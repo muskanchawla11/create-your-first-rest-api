@@ -1,0 +1,10 @@
+adding post functionality
+1-collect incoming data
+2-parse it
+3-sanitise it to guard against malicious data
+4-get existing data
+5-add the new data to the exisiing data
+6-write complete data to json file
+
+
+//how to collect the incoming data and how to write data to json file
