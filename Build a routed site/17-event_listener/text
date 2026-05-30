@@ -1,0 +1,11 @@
+flow of the program is determinned by events
+stricts sequence of instructure
+code is design to react to a event
+
+a event signal means something happebed
+
+event emitter allows us to emit a named event which can then be picked up nd handled by listener function
+//name of event
+//any parameter we want to pass on to the function that will be listen to this event
+
+on hearing this di this
