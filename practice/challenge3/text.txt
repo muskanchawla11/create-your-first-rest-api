@@ -1,0 +1,5 @@
+1-i got relative path , but what is optimal using relative path or absolute path?
+2-i have used async way of reading file , how does that better from reading synchoronously
+3-what exactly create server do? does it create a server online which listens at a port , nd why we write the function to run when server is listeing in create server?
+4-so if we have to exactly tell what create server do how would it ?
+5-why setting headers is so important , like i know to read a specific content , header should be exactly right ? but who reads header and how that they have so much impact
