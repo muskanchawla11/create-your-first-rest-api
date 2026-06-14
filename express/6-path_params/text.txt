@@ -1,0 +1,7 @@
+path params  
+/api/crypto-name/eth
+
+params can be dynamic , to let express know its dynamic use ':'
+can have more than one dynamic param in a single path 
+example 
+/api/:category/:type

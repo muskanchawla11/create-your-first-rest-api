@@ -1,0 +1,20 @@
+query params :
+/api?course=express&bad_jokes=true
+
+request object have various methods
+The request object
+
+○ req.body   - Data from the request body.
+
+○ req.params - Coming Soon!
+
+○ req.method - HTTP method (e.g., GET, POST).
+
+○ req.ip     - Client's IP address.
+
+○ req.query  - The query params!!!!
+
+/api?course=express&bad_jokes=true -> using res.query -> returns a object
+{ job: 'movie_star', isRich: 'true' }
+
+IMPORTANT NOTE : return 'true' not boolean true

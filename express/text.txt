@@ -1,0 +1,54 @@
+client server cycle
+┌─────────────┐
+│   CLIENT    │
+└──────┬──────┘
+       │
+       │ HTTP Request
+       ▼
+┌─────────────────────────────────────┐
+│              REQUEST                │
+├─────────────────────────────────────┤
+│ Method: GET                         │
+│ Path: /api                          │
+│ Data: Query Params / Path Params    │
+└──────┬──────────────────────────────┘
+       │
+       │ HTTP
+       ▼
+┌─────────────┐
+│   SERVER    │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│         HANDLE REQUEST              │
+├─────────────────────────────────────┤
+│ 1. Receive request                  │
+│ 2. Validate input                   │
+│ 3. Fetch / Filter data              │
+│ 4. Handle errors (if any)           │
+│ 5. Generate response                │
+└──────┬──────────────────────────────┘
+       │
+       │ HTTP Response
+       ▼
+┌─────────────────────────────────────┐
+│             RESPONSE                │
+├─────────────────────────────────────┤
+│ Resource: JSON Data                 │
+│ Content-Type: application/json      │
+│ Status Code: 200 / 404 / 500        │
+│ Status Message: OK / Not Found      │
+└──────┬──────────────────────────────┘
+       │
+       │ HTTP
+       ▼
+┌─────────────┐
+│   CLIENT    │
+│ Receives    │
+│ Response    │
+└─────────────┘
+
+http->you can send response as raw json
+http is a text based protocol , only accepts string
+json method -> convert object to json string
