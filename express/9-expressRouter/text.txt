@@ -1,0 +1,2 @@
+code is very scattered 
+you modulise it using router and controller

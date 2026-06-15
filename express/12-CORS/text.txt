@@ -1,0 +1,33 @@
+By default, 
+browsers enforce a same-origin policy. This means requests can only be made to the same protocol, domain, and port as the one serving the web page.
+
+                    CORS NEEDED TO ALLOW ALL ACCESS
+
+┌───────────────────────────────┐
+│ SERVER                        │
+│ http://startup-planet.com:3000│
+└───────────────┬───────────────┘
+                │
+        ┌───────┼───────┐
+        │       │       │
+      [CORS]  [CORS]  [CORS]
+        │       │       │
+        ▼       ▼       ▼
+
+┌─────────────────────────┐
+│ https://any.com:3000    │
+└─────────────────────────┘
+
+┌─────────────────────────┐
+│ https://some.com:8000   │
+└─────────────────────────┘
+
+┌─────────────────────────┐
+│ http://who.com:3001     │
+└─────────────────────────┘
+
+             EVERYONE!
+
+install cors using : npm i cors
+app.use(cors())
+apply open cors policy which allow all access , it will be applied to all routes below it 
