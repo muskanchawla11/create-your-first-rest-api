@@ -1,0 +1,17 @@
+db.exec()
+you want to run mutiple statements at once
+example : schema setup
+dont return anything
+
+db.run()
+run a single statement
+used fpr inserting,updating and deleting the data
+dont return anything
+
+db.get()
+used when you expect one row back (or you only care about first row)
+eg-> seraching one row by id
+
+db.all()->
+you want all matching rows from table as an array
+eg:all in sstock products

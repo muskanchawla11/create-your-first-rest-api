@@ -1,0 +1,13 @@
+for using db : we will use sql lite db
+1-npm i sqlite3
+2-npm  i sqlite
+
+SQLite3 - The database driver
+
+• Opens a connection to the database file.
+• Executes SQL queries.
+• Handles reading and writing results.
+
+SQLite - a wrapper
+
+• Provides async/await support for cleaner code.

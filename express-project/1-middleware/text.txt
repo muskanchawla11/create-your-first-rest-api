@@ -1,0 +1,17 @@
+we have to serve static files : for doing that in express its just one line
+
+WE WILL BE USING MIDDLEWARE : it comes between client and server
+it can modify your response
+few benifits of having middleware are :
+1-enabling cors
+2-parsing request
+3-logging request/errors and many more
+
+CUSTOM VS BUILD VS 3RD PARTY
+custom : build  by us , specific to our use case
+build-in : provided in express
+3rd party : available as npm dependency
+
+next-> in middleware
+is the function that should be called when middleware function has created
+middleware needs a end function but sometimes it end the response and in that case next function would not be used
